@@ -80,6 +80,8 @@ const ConferenceEvent = () => {
         return items;
       };
 
+      const items = getItemsFromTotalCost();
+      
       const ItemsDisplay = ({ items }) => {
         console.log(items);
         return <>
